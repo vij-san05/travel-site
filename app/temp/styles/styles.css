@@ -470,7 +470,17 @@ img{
 	height: auto;
 }
 
-._large-hero{
+.large-hero{
 	position: relative;
+}
+
+.large-hero__text-area{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	        transform:translateY(-50%);
+	width: 100%;
+	text-align: center;
 }
 
